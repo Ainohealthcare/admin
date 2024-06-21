@@ -1,7 +1,7 @@
 import axios from "axios";
 
-// const BASE_URL = "https://api.pelvicbio.com/api";
-const BASE_URL = "http://localhost:8082/api";
+const BASE_URL = "https://api.pelvicbio.com/api";
+// const BASE_URL = "http://localhost:8082/api";
 
 const instance = axios.create({
   baseURL: BASE_URL,
